@@ -16,6 +16,7 @@ public class HospitalSearchPage3 {
 	@FindBy(id="elementId") WebElement element;
 	public static WebElement getsrchHospTxt() {
 		srcHosp = POM.CONFIGURATION.Driver.driver.findElement(By.className("c-omni-searchbox--small"));
+		System.out.println("This is a new commit");
 		return srcHosp;
 
 	}
