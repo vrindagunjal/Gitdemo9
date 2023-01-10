@@ -18,6 +18,7 @@ public class HospitalSearchPage3 {
 		srcHosp = POM.CONFIGURATION.Driver.driver.findElement(By.className("c-omni-searchbox--small"));
 		System.out.println("This is a new commit");
 		System.out.println("This is a new develop branch commit");
+		System.out.println("This is a new merge commit");
 		
 		return srcHosp;
 
