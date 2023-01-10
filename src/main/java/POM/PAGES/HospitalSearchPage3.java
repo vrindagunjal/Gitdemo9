@@ -17,7 +17,7 @@ public class HospitalSearchPage3 {
 	public static WebElement getsrchHospTxt() {
 		srcHosp = POM.CONFIGURATION.Driver.driver.findElement(By.className("c-omni-searchbox--small"));
 		System.out.println("This is a new commit");
-		System.out.println("This is a new deelop branch commit");
+		System.out.println("This is a new develop branch commit");
 		
 		return srcHosp;
 
